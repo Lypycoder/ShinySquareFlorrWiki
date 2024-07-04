@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Florr.io Wiki</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="w3-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/320b33fac5.js" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar cg1 w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large cg1"
+                href="javascript:void(0);" onclick="mobile_menu()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="petals.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">
+                Petals
+            </a>
+            <a href="mobs.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Mobs</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Builds</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Biomes & Minimap</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="petals.html" class="w3-bar-item w3-button w3-padding-large">Petals</a>
+            <a href="mobs.html" class="w3-bar-item w3-button w3-padding-large">Mobs</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Builds</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Biomes & Minimap</a>
+        </div>
+    </div>
+
+    <script>
+        function mobile_menu() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <header class="w3-container cg1 w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">Petals</h1>
+        <p class="w3-xlarge">Petals are the things you fight with in the game.</p>
+        <!-- <a href="https://florr.io/">
+            <button class="w3-button cg2 w3-padding-large w3-large w3-margin-top">Play</button></a> -->
+    </header>
+
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>What petals are there?</h1>
+                <h5 class="w3-padding-32">There are a lot of petals in florr.io, there are 77 petals.</h5>
+
+                <p class="w3-text-grey">You can kill mobs to get xp and petals(which you attack with)</p>
+            </div>
+
+            <div class="w3-third w3-center">
+                <img src="images/florrplayer1.png" class="w3-padding-64 w3-text-red">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -6,4 +6,5 @@ Entirely coded and made by ShinySquare
 2. Please Subscribe!!!
 3. Contact Me On Discord!!
 4. Have Fun Playing Florr!
+5. PS I think Readmes are weird
 

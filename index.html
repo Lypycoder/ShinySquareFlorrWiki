@@ -161,9 +161,10 @@
                 x.className = x.className.replace(" w3-show", "");
             }
         }
+        
         setInterval(Quote1, 30000);
-        setTimeout(() => { setInterval(Quote2), 30000; }, 30000);
-        setTimeout(() => { setInterval(Quote3), 30000; }, 30000);
+        setTimeout(() => { setInterval(Quote2, 30000); }, 30000);
+        setTimeout(() => { setTimeout(() => { setInterval(Quote3, 30000); }, 30000);}, 30000) 
         function Quote1() {
             var x = document.getElementById("q1");
             var y = document.getElementById("q2");

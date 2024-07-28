@@ -161,10 +161,11 @@
                 x.className = x.className.replace(" w3-show", "");
             }
         }
-        
+        //interval setting
         setInterval(Quote1, 30000);
         setTimeout(() => { setInterval(Quote2, 30000); }, 30000);
         setTimeout(() => { setTimeout(() => { setInterval(Quote3, 30000); }, 30000);}, 30000) 
+        //first quote
         function Quote1() {
             var x = document.getElementById("q1");
             var y = document.getElementById("q2");
@@ -173,7 +174,7 @@
             y.style.display = "none";
             z.style.display = "none";
         }
-
+        //second quote
         function Quote2() {
             var x = document.getElementById("q1");
             var y = document.getElementById("q2");
@@ -182,7 +183,7 @@
             y.style.display = "block";
             z.style.display = "none";
         }
-
+        //second quote
         function Quote3() {
             var x = document.getElementById("q1");
             var y = document.getElementById("q2");

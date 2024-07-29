@@ -161,10 +161,12 @@
                 x.className = x.className.replace(" w3-show", "");
             }
         }
+        document.getElementById("q2").style.display = "none";
+        document.getElementById("q3").style.display = "none";
         //interval setting
-        setInterval(Quote1, 30000);
-        setTimeout(() => { setInterval(Quote2, 30000); }, 30000);
-        setTimeout(() => { setTimeout(() => { setInterval(Quote3, 30000); }, 30000);}, 30000) 
+        setInterval(Quote1, 90000);
+        setTimeout(() => { setInterval(Quote2, 90000); }, 30000);
+        setTimeout(() => { setTimeout(() => { setInterval(Quote3, 90000); }, 30000);}, 30000) 
         //first quote
         function Quote1() {
             var x = document.getElementById("q1");

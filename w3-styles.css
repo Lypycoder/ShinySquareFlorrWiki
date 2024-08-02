@@ -11,6 +11,37 @@
     background-color: #07d973 !important
 }
 
+.common {
+    color: #7fd12e;
+}
+
+.unusual {
+    color: #d6eb1e;
+}
+
+.rare {
+   color: #3734eb;
+}
+
+.epic {
+    color: #7134eb;
+}
+
+.legendary {
+    color: #f50202;
+}
+
+.mythic {
+    color: #02d1f5;
+}
+
+.ultra {
+    color: #f5027c;
+}
+
+.super {
+    color: #02f598;
+}
 
 /* default */
 

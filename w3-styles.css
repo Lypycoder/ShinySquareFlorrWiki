@@ -24,7 +24,7 @@ html {
     box-sizing: inherit
 }
 
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+/* Extract from normalize.css at git.io/normalize */
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -170,9 +170,9 @@ select {
 button,
 [type=button],
 [type=reset],
-[type=submit] {
+/* [type=submit] {
     -webkit-appearance: button
-}
+} */
 
 button::-moz-focus-inner,
 [type=button]::-moz-focus-inner,
@@ -217,10 +217,10 @@ textarea {
     height: auto
 }
 
-[type=search] {
+/* [type=search] {
     -webkit-appearance: textfield;
     outline-offset: -2px
-}
+} */
 
 [type=search]::-webkit-search-decoration {
     -webkit-appearance: none
